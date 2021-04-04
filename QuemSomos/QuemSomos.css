@@ -1,0 +1,23 @@
+#img {
+
+    width: 40%;
+
+}
+
+#vet, #banho {
+
+    display: flex;
+    margin: 25px 0px 25px 0px;
+    padding: 0px 25px 0px 25px;
+    
+}
+
+p {
+    background-color:  #F5FFFA;
+    margin: 0px 15px 0px 15px;
+    padding: 25px;
+    font-size: large;
+    font-family:cursive;
+    color: #4B0082;
+}
+

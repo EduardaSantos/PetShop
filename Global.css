@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    
+}
+body{
+
+    background-color: #B0C4DE;
+
+}
+#titulo {
+    font-family: fantasy;
+    color: #F5FFFA;
+    text-align: center;
+    padding: 25px;
+    font-size: 100px;
+
+}
+
+#menu {
+
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F5FFFA;
+
+}
+
+a {
+
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-family: fantasy;
+}
+a:hover {
+
+    background-color: #B0C4DE;
+    color: #F5FFFA;
+    
+
+}
