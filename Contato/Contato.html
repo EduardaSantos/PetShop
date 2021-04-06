@@ -1,40 +1,66 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Quem Somos</title>
+        <title>Contatos</title>
         <link rel="stylesheet" href = "./Contato.css"/>
         <link rel="stylesheet" href = "../Global.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     </head>
     <body>
 
         <h1 id="titulo">Petshop</h1>
     
         <div id="menu">
-            <a href= "../Home/Home.html">Home</a>
-            <a href= "../QuemSomos/QuemSomos.html">Quem somos</a>
-            <a href="../ClinicaVeterinaria/ClinicaVeterinaria.html"> Clinica veterinaria</a>
-            <a href="../BanhoTosa/BanhoTosa.html">Banho e tosa</a>
-            <a href="./Contato.html">Contato</a>
+            <a href= "../Home/Home.html" id="menulink">Home</a>
+            <a href= "../QuemSomos/QuemSomos.html" id="menulink">Quem somos</a>
+            <a href="../ClinicaVeterinaria/ClinicaVeterinaria.html" id="menulink"> Clinica veterinaria</a>
+            <a href="../BanhoTosa/BanhoTosa.html" id="menulink">Banho e tosa</a>
+            <a href="./Contato.html" id="menulink">Contato</a>
         </div>
         
         <div id="container">
 
             <div id="contato">
 
+                <h2 id="contatos">Entre em contato com a gente e agende seu horário:</h2>
+                <br>
+                <i class="material-icons" style="font-size: 24px">chat_bubble_outline</i>
                 <span>WhatsApp: (99) 99999-9999</span>
                 <br>
+                <i class="material-icons" style="font-size: 24px">email</i>
                 <span>Email: petshop@gmail.com</span>
                 <br>
-                <span>WhatsApp: (99) 99999-9999</span>
+                <i style="font-size:24px" class="fa">&#xf082;</i>
+                <a href="https://www.facebook.com/" id="facebook">Facebook</a>
                 <br>
-                <span>WhatsApp: (99) 99999-9999</span>
+                <i style="font-size:24px" class="fa">&#xf16d;</i>
+                <a href="https://www.instagram.com/" id="instagram">Instagram</a>
 
             </div>
 
-            <div id="formulario">
+           
 
+                <form id="formulario">
 
-            </div>
+                    <input type="text" id="nome" placeholder="Nome do humano">
+                    <br>
+                    <input type="text" id="nomepet" placeholder="Nome do pet">
+                    <br>
+                    <input type="number" name="telefone" placeholder="Telefone do humano">
+                    <br>
+                    <input type="email" id="nome" placeholder="Email do humano">
+                    <br>
+                    <span>Vamos atender um Gatineo ou um Doguineo?</span>
+                    <br>
+                    <input type="radio" name="especie" value="gato"> Gatineo
+                    <input type="radio" name="especie" value="cachorro"> Doguineo
+                    <br>
+                    <textarea name="email" id="email" cols="30" rows="30" placeholder="Escreva seu desejo aqui"></textarea>
+                </form>
+
+            
         </div>
 
 

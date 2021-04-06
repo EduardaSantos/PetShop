@@ -26,7 +26,7 @@ body{
 
 }
 
-a {
+#menulink {
 
     padding: 15px;
     width: 100%;
@@ -34,7 +34,7 @@ a {
     text-decoration: none;
     font-family: fantasy;
 }
-a:hover {
+#menulink:hover {
 
     background-color: #B0C4DE;
     color: #F5FFFA;

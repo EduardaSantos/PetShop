@@ -8,13 +8,29 @@
 
 #contato {
 
-    width: 30%;
-    background-color: white;
+    width: 40%;
+    background-color: #F5FFFA;
     padding: 35px 0px 35px 15px;
+    
+}
 
+#contatos {
+
+    font-family: fantasy;
+    color: #4B0082;
+}
+
+#facebook, #instagram {
+
+    text-decoration: none;
+    color: black;
 }
 
 #formulario {
-
-
+    
+    width: 50%;
+    background-color: #F5FFFA;
+    padding: 35px 0px 35px 15px;
+    
 }
+
