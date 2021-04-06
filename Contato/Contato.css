@@ -1,36 +1,42 @@
 #container {
-
     display: flex;
     width: 100%;
-    margin: 15px;
-
+    justify-content: space-evenly;
+    margin: 25px 0px 25px 0px;
 }
 
 #contato {
-
-    width: 40%;
+    width: 30%;
     background-color: #F5FFFA;
     padding: 35px 0px 35px 15px;
-    
 }
 
 #contatos {
-
     font-family: fantasy;
     color: #4B0082;
 }
 
 #facebook, #instagram {
-
     text-decoration: none;
     color: black;
 }
 
 #formulario {
-    
-    width: 50%;
+    width: 60%;
     background-color: #F5FFFA;
     padding: 35px 0px 35px 15px;
-    
 }
 
+#nome, #nomepet, #telefone, #nome, #email {
+    padding: 10px;
+
+    width: 90%;
+}
+
+#field {
+    padding: 10px;
+}
+
+#options {
+    margin-top: 5px;
+}

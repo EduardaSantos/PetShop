@@ -21,9 +21,7 @@
         </div>
         
         <div id="container">
-
             <div id="contato">
-
                 <h2 id="contatos">Entre em contato com a gente e agende seu horário:</h2>
                 <br>
                 <i class="material-icons" style="font-size: 24px">chat_bubble_outline</i>
@@ -36,31 +34,45 @@
                 <a href="https://www.facebook.com/" id="facebook">Facebook</a>
                 <br>
                 <i style="font-size:24px" class="fa">&#xf16d;</i>
-                <a href="https://www.instagram.com/" id="instagram">Instagram</a>
-
+                <a href="https://www.instagram.com/" id="instagram">Instagram</a>   
             </div>
-
-           
-
-                <form id="formulario">
-
-                    <input type="text" id="nome" placeholder="Nome do humano">
-                    <br>
-                    <input type="text" id="nomepet" placeholder="Nome do pet">
-                    <br>
-                    <input type="number" name="telefone" placeholder="Telefone do humano">
-                    <br>
-                    <input type="email" id="nome" placeholder="Email do humano">
-                    <br>
-                    <span>Vamos atender um Gatineo ou um Doguineo?</span>
-                    <br>
-                    <input type="radio" name="especie" value="gato"> Gatineo
-                    <input type="radio" name="especie" value="cachorro"> Doguineo
-                    <br>
-                    <textarea name="email" id="email" cols="30" rows="30" placeholder="Escreva seu desejo aqui"></textarea>
+            <div id="formulario">
+                <h2 id="contatos">Envie uma mensagem para nós:</h2>
+                <form>
+                    <div id="field">
+                        <label>Nome do humano:</label>
+                        <br/>
+                        <input type="text" id="nome" placeholder="Nome do humano">
+                    </div>
+                    <div id="field">
+                        <label>Nome do pet:</label>
+                        <br/>
+                        <input type="text" id="nomepet" placeholder="Nome do pet">
+                    </div>
+                    <div id="field">
+                        <label>Telefone do humano:</label>
+                        <br/>
+                        <input type="number" id="telefone" name="telefone" placeholder="Telefone do humano">
+                    </div>
+                    <div id="field">
+                        <label>Email do humano:</label>
+                        <br/>
+                        <input type="email" id="nome" placeholder="Email do humano">
+                    </div>
+                    <div id="field">
+                        <span>Vamos atender um Gatineo ou um Doguineo?</span>
+                        <br/>
+                        <div id="options">
+                            <input type="radio" name="especie" value="gato"> Gatineo
+                            <input type="radio" name="especie" value="cachorro"> Doguine
+                        </div>
+                    </div>
+                    <div id="field">
+                        <span>Escreva sua mensagem:</span>
+                        <textarea name="email" id="email" cols="30" rows="15" placeholder="Escreva seu desejo aqui"></textarea>
+                    </div>
                 </form>
-
-            
+            </div>
         </div>
 
 
