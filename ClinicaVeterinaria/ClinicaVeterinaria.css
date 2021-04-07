@@ -17,11 +17,11 @@ img{
     margin-top: 25px;
 }
 
-p {
+#containertexto {
     background-color:  PowderBlue;
     margin: 0px 15px 0px 15px;
     padding: 25px;
     font-size: large;
     font-family:cursive;
-    color: SlateGray;
+    color: black;
 }
