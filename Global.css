@@ -6,12 +6,12 @@
 }
 body{
 
-    background-color: #B0C4DE;
+    background-color: #00a3b4;
 
 }
 #titulo {
     font-family: fantasy;
-    color: #F5FFFA;
+    color: #ff8300;
     text-align: center;
     padding: 25px;
     font-size: 100px;
@@ -22,7 +22,7 @@ body{
 
     display: flex;
     justify-content: space-evenly;
-    background-color: #F5FFFA;
+    background-color: PowderBlue;
 
 }
 
@@ -30,13 +30,14 @@ body{
 
     padding: 15px;
     width: 100%;
+    color: #ff8300;
     text-align: center;
     text-decoration: none;
     font-family: fantasy;
 }
 #menulink:hover {
 
-    background-color: #B0C4DE;
+    background-color: #00a3b4;
     color: #F5FFFA;
     
 

@@ -7,13 +7,14 @@
 
 #contato {
     width: 30%;
-    background-color: #F5FFFA;
+    background-color: PowderBlue;
     padding: 35px 0px 35px 15px;
+    font-family:cursive;
 }
 
 #contatos {
     font-family: fantasy;
-    color: #4B0082;
+    color: #ff8300;
 }
 
 #facebook, #instagram {
@@ -23,14 +24,22 @@
 
 #formulario {
     width: 60%;
-    background-color: #F5FFFA;
+    background-color: PowderBlue;
     padding: 35px 0px 35px 15px;
 }
 
-#nome, #nomepet, #telefone, #nome, #email {
+#nome, #nomepet, #telefone, #nome, #email, #botão{
     padding: 10px;
-
+    font-family:cursive;
     width: 90%;
+}
+
+#botão {
+
+    background-color: #ff8300;;
+    color: white;
+    font-size: 15px;
+    font-family:cursive;
 }
 
 #field {
